@@ -433,7 +433,7 @@
           "context": "204K",
           "maxOutput": "16K",
           "modality": "Text (reasoning)",
-          "rateLimit": "6 RPM, ~1M tokens/month (shared, varies by model)"
+          "rateLimit": "~1M tokens/month (shared, varies by model)"
         },
         {
           "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
@@ -441,7 +441,7 @@
           "context": "400K",
           "maxOutput": "16K",
           "modality": "Text (reasoning)",
-          "rateLimit": "6 RPM, ~1M tokens/month (shared, varies by model)"
+          "rateLimit": "~1M tokens/month (shared, varies by model)"
         },
         {
           "id": "zai-org/GLM-5.3-Flash",
@@ -449,7 +449,7 @@
           "context": "400K",
           "maxOutput": "16K",
           "modality": "Text (reasoning)",
-          "rateLimit": "6 RPM, ~1M tokens/month (shared, varies by model)"
+          "rateLimit": "~1M tokens/month (shared, varies by model)"
         },
         {
           "id": "BAAI/bge-m3",
@@ -457,7 +457,7 @@
           "context": "8K",
           "maxOutput": "—",
           "modality": "Embeddings",
-          "rateLimit": "6 RPM, ~1M tokens/month (shared, varies by model)"
+          "rateLimit": "~1M tokens/month (shared, varies by model)"
         }
       ]
     },
@@ -1233,7 +1233,7 @@
     },
     {
       "id": 14,
-      "text": "The free grant is issued only after SMS verification with a real (non-VoIP) phone number, one grant per number ([billing docs](https://docs.gonkabroker.com/guides/billing-and-deposits/)). Unused free tokens do not carry over to the next month. The grant is sized as at least 1M tokens of the most expensive model; cheaper models stretch further (e.g. ~25M tokens for BGE-M3) ([free tier page](https://gonkabroker.com/free-llm-api/)). While running on free-tier funds only, requests are capped at a lower rate; the current cap is returned as `maxRpm` by `/test-auth` ([limits](https://docs.gonkabroker.com/reference/limits-and-quotas/))."
+      "text": "The free grant is issued only after SMS verification with a real (non-VoIP) phone number, one grant per number ([billing docs](https://docs.gonkabroker.com/guides/billing-and-deposits/)). Unused free tokens do not carry over to the next month. The grant is sized as at least 1M tokens of the most expensive model; cheaper models stretch further (e.g. ~12.5M tokens for BGE-M3) ([free tier page](https://gonkabroker.com/free-llm-api/)). While running on free-tier funds only, requests are capped at a lower rate; the current cap is returned as `maxRpm` by `/test-auth` ([limits](https://docs.gonkabroker.com/reference/limits-and-quotas/))."
     }
   ],
   "glossary": [

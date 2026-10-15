@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05",
+  "lastUpdated": "2026-10-16",
   "providers": [
     {
       "name": "Aion Labs",
@@ -1174,6 +1174,42 @@
           "maxOutput": "—",
           "modality": "Text",
           "rateLimit": "1,000 RPM, 50,000 TPM"
+        }
+      ]
+    },
+    {
+      "name": "APIShare",
+      "category": "inference_provider",
+      "country": "CN",
+      "flag": "🇨🇳",
+      "url": "https://apishare.cc/free-llm-api-rankings",
+      "baseUrl": "https://apishare.cc/v1",
+      "description": "OpenAI-compatible gateway aggregating free-tier models from multiple upstream providers under one endpoint. Every provider is probed daily (availability / latency / quota re-check) and published on a public live leaderboard. Free registered account gets gateway access; models are marked with a :free suffix.",
+      "footnoteRef": null,
+      "models": [
+        {
+          "id": "ApiShare/alibaba/qwen3.8-max:free",
+          "name": "Qwen3.8 Max (free)",
+          "context": "200K",
+          "maxOutput": "20K",
+          "modality": "Text",
+          "rateLimit": "Per-upstream quota, see live leaderboard"
+        },
+        {
+          "id": "ApiShare/zhipu/glm-5.2:free",
+          "name": "GLM-5.2 (free)",
+          "context": "256K",
+          "maxOutput": "230K",
+          "modality": "Text",
+          "rateLimit": "Per-upstream quota, see live leaderboard"
+        },
+        {
+          "id": "Agnes/agnes-3.0-flash:free",
+          "name": "Agnes 3.0 Flash (free)",
+          "context": "200K",
+          "maxOutput": "20K",
+          "modality": "Text",
+          "rateLimit": "Per-upstream quota, see live leaderboard"
         }
       ]
     }

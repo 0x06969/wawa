@@ -534,7 +534,7 @@
         {
           "id": "qwen/qwen3.8-27b",
           "name": "qwen/qwen3.8-27b",
-          "context": "128K",
+          "context": "131K",
           "maxOutput": "8K",
           "modality": "Text (reasoning)",
           "rateLimit": "160,000 TPM, 30M tokens/month"
